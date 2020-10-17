@@ -9,8 +9,8 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"google.golang.org/grpc"
 
-	v1 "github.com/speza/grpc-gateway-test/gen/go/api/v1"
-	"github.com/speza/grpc-gateway-test/internal/server"
+	v1 "github.com/speza/grpc-gateway-example/gen/go/api/v1"
+	"github.com/speza/grpc-gateway-example/internal/server"
 )
 
 func main() {
