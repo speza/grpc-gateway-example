@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package api.v1;
+
+option go_package = "github.com/speza/api/v1";
+
+message Message {
+  string value = 1;
+}
+
+service HelloWorldService {
+  rpc SayHello(Message) returns (Message) {}
+}
